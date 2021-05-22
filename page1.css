@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(assets/Bg.png);
+  background-size: contain;
+}
+
+.form {
+  background-image: url(assets/Bg_2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 75%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  text-align: center;
+}
+
+.heading h2 {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 72px;
+  margin: 10px 0px 10px 0;
+}
+
+.heading h3 {
+  margin: 2% 0;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.buttons {
+  padding-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn-main {
+  background: url(assets/button_main.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.btn-second {
+  background: url(assets/button_secndry.png) no-repeat;
+  background-size: 100% 100%;
+  color: #000000;
+  font-size: 15px;
+}
+
+.btn {
+  margin: 3% 0% 3% 0%;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5% 0 5% 0;
+  width: 350px;
+}
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn1 {
+  color: white;
+  font-size: 21px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  text-shadow: 1px 1px #000000;
+}
+
+.mini-text {
+  color: #000000;
+  font-size: 7px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  text-shadow: 0px 0px #000000;
+}
+
+.login {
+  color: #f79837;
+  font-weight: bolder;
+  font-size: 18px;
+}

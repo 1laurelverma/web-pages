@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(assets/Bg.png);
+  background-size: contain;
+}
+
+h2 {
+  padding: 12px 0px 8px 0px;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  font-size: 14px;
+}
+
+.form {
+  background-image: url(assets/Bg_2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 75%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 9% 0px 0px 0;
+}
+
+.box {
+  background: url(assets/button_secndry.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  width: 350px;
+  height: 50px;
+  margin: 5px 0px;
+}
+
+.box input {
+  border: none;
+  background-color: rgb(255, 255, 255);
+  height: 47px;
+  margin-top: 1.5px;
+  width: 335px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.box input:focus {
+  outline: none !important;
+}
+
+.btn {
+  background: url(assets/button_main.png) no-repeat;
+  background-size: 100% 100%;
+  height: 40px;
+  width: 350px;
+  margin-top: 15px;
+  border: none;
+  color: aliceblue;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-shadow: 1px 1px #000000;
+  cursor: inherit;
+}
